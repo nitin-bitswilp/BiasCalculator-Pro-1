@@ -1,3 +1,4 @@
+# This file creates the UI for calculator and calls functions from 
 import sys
 
 from PyQt5.QtWidgets import QApplication, QVBoxLayout, QGridLayout, QPushButton, QLabel, QTextEdit
@@ -6,7 +7,7 @@ from PyQt5.QtCore import Qt
 import SimpleCalculator as calc_func
 
 
-class Calculator(QWidget):
+class Calculator(QWidget)
 
     def __init__(self):
         super().__init__()
